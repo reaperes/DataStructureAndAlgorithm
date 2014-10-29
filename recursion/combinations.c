@@ -26,11 +26,13 @@ void comb(int *list, char *trans, int len, int start);
 
 
 int main(int argc, char *argv[]) {
-	char trans[] = {'a', 'b', 'c', 'd', 'e'};
-	int list[] = {0, 0, 0, 0, 0};
-	const int len = 5;
-	
-	comb(list, trans, len, 0);
+//	char trans[] = {'a', 'b', 'c', 'd', 'e'};
+//	int list[] = {0, 0, 0, 0, 0};
+//	const int len = 5;
+//	
+//	comb(list, trans, len, 0);
+	int two[3][5] = {1, 2, 3, 4, 5, 6, 7};
+
 	return 0;
 }
 
