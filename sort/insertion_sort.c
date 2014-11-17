@@ -14,7 +14,6 @@
 void print(int arr[], int len);
 void swap(int *a, int *b);
 int compareA(int *a, int *b);
-int compareB(int *a, int *b);
 void sort(int arr[], int len, int (*func)(int *, int *) );
 
 int main(int argc, char *argv[]) {
